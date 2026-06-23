@@ -40,6 +40,28 @@ Core principle, retained from the SROIE implementation:
     If the VLM omits a field, field-conditioned OCR primitives propose WHERE.
 """
 
+
+
+
+
+import os
+
+os.environ["HF_HOME"] = "/workspace/hf_cache"
+os.environ["HF_HUB_CACHE"] = "/workspace/hf_cache/hub"
+os.environ["TRANSFORMERS_CACHE"] = "/workspace/hf_cache/hub"
+os.environ["HF_MODULES_CACHE"] = "/workspace/hf_cache/modules"
+os.environ["XDG_CACHE_HOME"] = "/workspace/runtime_cache"
+os.environ["TMPDIR"] = "/workspace/runtime_cache/tmp"
+
+for p in [
+    os.environ["HF_HOME"],
+    os.environ["HF_HUB_CACHE"],
+    os.environ["HF_MODULES_CACHE"],
+    os.environ["XDG_CACHE_HOME"],
+    os.environ["TMPDIR"],
+]:
+    os.makedirs(p, exist_ok=True)
+
 import argparse
 import atexit
 import base64
