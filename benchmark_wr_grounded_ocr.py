@@ -751,6 +751,44 @@ def parse_args() -> argparse.Namespace:
 
 
 ARGS = parse_args()
+
+def configure_local_cache(args):
+    hf_cache_dir = args.hf_cache_dir or "/workspace/hf_cache"
+    runtime_cache_dir = args.runtime_cache_dir or "/workspace/runtime_cache"
+
+    os.makedirs(hf_cache_dir, exist_ok=True)
+    os.makedirs(os.path.join(hf_cache_dir, "hub"), exist_ok=True)
+    os.makedirs(runtime_cache_dir, exist_ok=True)
+
+    os.environ["HF_HOME"] = hf_cache_dir
+    os.environ["HF_HUB_CACHE"] = os.path.join(hf_cache_dir, "hub")
+    os.environ["TRANSFORMERS_CACHE"] = os.path.join(hf_cache_dir, "hub")
+
+    os.environ["XDG_CACHE_HOME"] = runtime_cache_dir
+    os.environ["TORCH_HOME"] = os.path.join(runtime_cache_dir, "torch")
+    os.environ["TRITON_CACHE_DIR"] = os.path.join(runtime_cache_dir, "triton")
+    os.environ["VLLM_CACHE_ROOT"] = os.path.join(runtime_cache_dir, "vllm")
+    os.environ["TMPDIR"] = os.path.join(runtime_cache_dir, "tmp")
+
+    for key in [
+        "HF_HOME",
+        "HF_HUB_CACHE",
+        "TRANSFORMERS_CACHE",
+        "XDG_CACHE_HOME",
+        "TORCH_HOME",
+        "TRITON_CACHE_DIR",
+        "VLLM_CACHE_ROOT",
+        "TMPDIR",
+    ]:
+        os.makedirs(os.environ[key], exist_ok=True)
+
+
+ARGS = parser.parse_args()
+configure_local_cache(ARGS)
+
+
+
+
 EVAL_FIELDS = [field.strip() for field in ARGS.eval_fields.split(",") if field.strip()]
 input_token_lengths: List[int] = []
 output_token_lengths: List[int] = []
