@@ -1454,6 +1454,9 @@ def load_deepseek_ocr_vllm() -> None:
             "whitelist_token_ids": {128821, 128822},
         }
 
+    print("HF_HOME =", os.environ.get("HF_HOME"))
+    print("HF_HUB_CACHE =", os.environ.get("HF_HUB_CACHE"))
+    print("TRANSFORMERS_CACHE =", os.environ.get("TRANSFORMERS_CACHE"))
     DEEPSEEK_LLM = LLM(**llm_kwargs)
     DEEPSEEK_SAMPLING_PARAMS = SamplingParams(
         temperature=ARGS.temperature,
