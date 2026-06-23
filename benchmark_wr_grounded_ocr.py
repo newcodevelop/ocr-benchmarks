@@ -783,7 +783,6 @@ def configure_local_cache(args):
         os.makedirs(os.environ[key], exist_ok=True)
 
 
-ARGS = parser.parse_args()
 configure_local_cache(ARGS)
 
 
