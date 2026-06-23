@@ -68,6 +68,10 @@ except ImportError:
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OCR_BASELINES_DIR = os.path.dirname(SCRIPT_DIR)
 
+import os
+
+os.environ["HF_HOME"] = "/workspace/hf_cache"
+
 # WildReceipt defines a key and a value class for each semantic concept.  These
 # canonical names are deliberately stable even if class_list.txt uses spaces,
 # capitalization, abbreviations, or "sub_total" instead of "subtotal".
