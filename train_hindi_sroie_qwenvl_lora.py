@@ -694,7 +694,7 @@ def cmd_train(args: argparse.Namespace) -> None:
         logging_steps=args.logging_steps,
         save_steps=args.save_steps,
         eval_steps=args.eval_steps if val_rows else None,
-        evaluation_strategy="steps" if val_rows else "no",
+        eval_strategy="steps" if val_rows else "no",
         save_strategy="steps",
         save_total_limit=args.save_total_limit,
         bf16=(args.dtype == "bf16" or (args.dtype == "auto" and torch.cuda.is_available())),
