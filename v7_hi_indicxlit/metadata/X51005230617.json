@@ -1,0 +1,1636 @@
+[
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      223,
+      112,
+      331,
+      112,
+      331,
+      165,
+      223,
+      165
+    ],
+    "bbox_rect": [
+      223,
+      112,
+      331,
+      165
+    ],
+    "original_text": "1950",
+    "converted_text": "1950",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 38,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      223,
+      125,
+      307,
+      152
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      45,
+      197,
+      477,
+      197,
+      477,
+      224,
+      45,
+      224
+    ],
+    "bbox_rect": [
+      45,
+      197,
+      477,
+      224
+    ],
+    "original_text": "GERBANG ALAF RESTAURANTS SDN BHD",
+    "converted_text": "गेरबांग अलाफ रेस्टॉरेंट्स SDN BHD",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      45,
+      199,
+      308,
+      222
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      192,
+      229,
+      316,
+      229,
+      316,
+      258,
+      192,
+      258
+    ],
+    "bbox_rect": [
+      192,
+      229,
+      316,
+      258
+    ],
+    "original_text": "(65351-M)",
+    "converted_text": "(65351-M)",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      192,
+      232,
+      292,
+      254
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      140,
+      261,
+      369,
+      261,
+      369,
+      288,
+      140,
+      288
+    ],
+    "bbox_rect": [
+      140,
+      261,
+      369,
+      288
+    ],
+    "original_text": "FORMERLY KNOWN AS",
+    "converted_text": "फॉर्मरली नाउन एएस",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      140,
+      263,
+      289,
+      285
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      31,
+      293,
+      478,
+      293,
+      478,
+      320,
+      31,
+      320
+    ],
+    "bbox_rect": [
+      31,
+      293,
+      478,
+      320
+    ],
+    "original_text": "GOLDEN ARCHES RESTAURANTS SDN BHD",
+    "converted_text": "गोल्डेन आर्चेस रेस्टॉरेंट्स SDN BHD",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      31,
+      295,
+      304,
+      318
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      111,
+      326,
+      409,
+      326,
+      409,
+      354,
+      111,
+      354
+    ],
+    "bbox_rect": [
+      111,
+      326,
+      409,
+      354
+    ],
+    "original_text": "LICENSEE OF MCDONALD'S",
+    "converted_text": "एम. सी. डी. ओ. एन. एल. डी. का लाइसेंस",
+    "action": "TRANSLATE",
+    "reason": "sentence_like_text",
+    "confidence": 0.82,
+    "evidence": [
+      "sentence_like"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      111,
+      329,
+      392,
+      351
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      6,
+      358,
+      530,
+      358,
+      530,
+      389,
+      6,
+      389
+    ],
+    "bbox_rect": [
+      6,
+      358,
+      530,
+      389
+    ],
+    "original_text": "LEVEL 6, BANGUNAN TH, DAMANSARA UPTOWN3",
+    "converted_text": "लेवेल6, BANGUNAN TH, DAMANSARA UPTOWN3",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      6,
+      362,
+      495,
+      384
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      6,
+      390,
+      529,
+      390,
+      529,
+      422,
+      6,
+      422
+    ],
+    "bbox_rect": [
+      6,
+      390,
+      529,
+      422
+    ],
+    "original_text": "NO.3, JALAN SS21/39,47400 PETALING JAYA",
+    "converted_text": "नहीं।3,जलनSS21/39,47400पेटलिंग जाया",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 23,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      6,
+      394,
+      378,
+      418
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      204,
+      423,
+      316,
+      423,
+      316,
+      452,
+      204,
+      452
+    ],
+    "bbox_rect": [
+      204,
+      423,
+      316,
+      452
+    ],
+    "original_text": "SELANGOR",
+    "converted_text": "सेलंगोर",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      204,
+      427,
+      260,
+      447
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      99,
+      454,
+      436,
+      454,
+      436,
+      487,
+      99,
+      487
+    ],
+    "bbox_rect": [
+      99,
+      454,
+      436,
+      487
+    ],
+    "original_text": "(GST ID NO: 000504664064)",
+    "converted_text": "(जी. एस. टी. आई. डी. सं.:000504664064)",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 20,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      99,
+      459,
+      430,
+      482
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      31,
+      487,
+      500,
+      487,
+      500,
+      517,
+      31,
+      517
+    ],
+    "bbox_rect": [
+      31,
+      487,
+      500,
+      517
+    ],
+    "original_text": "MCDONALD'S BHP TAMAN MELAWATI(#328)",
+    "converted_text": "MCDONALD'S BHP TAMAN MELAWATI(#328)",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      31,
+      491,
+      494,
+      513
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      126,
+      519,
+      409,
+      519,
+      409,
+      548,
+      126,
+      548
+    ],
+    "bbox_rect": [
+      126,
+      519,
+      409,
+      548
+    ],
+    "original_text": "TEL NO. 03-4162-2318",
+    "converted_text": "नं. बताएँ।03-4162-2318",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      126,
+      523,
+      333,
+      544
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      192,
+      552,
+      341,
+      552,
+      341,
+      581,
+      192,
+      581
+    ],
+    "bbox_rect": [
+      192,
+      552,
+      341,
+      581
+    ],
+    "original_text": "TAX INVOICE",
+    "converted_text": "कर इनवॉइस",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      192,
+      555,
+      289,
+      578
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      205,
+      618,
+      341,
+      618,
+      341,
+      645,
+      205,
+      645
+    ],
+    "bbox_rect": [
+      205,
+      618,
+      341,
+      645
+    ],
+    "original_text": "MFY SIDE 1",
+    "converted_text": "एमएफवाई साइड1",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      205,
+      621,
+      334,
+      642
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      6,
+      681,
+      275,
+      681,
+      275,
+      710,
+      6,
+      710
+    ],
+    "bbox_rect": [
+      6,
+      681,
+      275,
+      710
+    ],
+    "original_text": "INV# 003281900229170",
+    "converted_text": "इन्व# 003281900229170",
+    "action": "MIXED",
+    "reason": "label_value_pattern",
+    "confidence": 0.98,
+    "evidence": [
+      "label_value"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      6,
+      686,
+      241,
+      705
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      4,
+      715,
+      501,
+      715,
+      501,
+      744,
+      4,
+      744
+    ],
+    "bbox_rect": [
+      4,
+      715,
+      501,
+      744
+    ],
+    "original_text": "ORD #50 -REG #19- 18/01/2018 10:27:03",
+    "converted_text": "ओर्ड #50-रेग #19-18/01/2018 10:27:03",
+    "action": "MIXED",
+    "reason": "label_value_pattern",
+    "confidence": 0.98,
+    "evidence": [
+      "label_value"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      4,
+      717,
+      374,
+      742
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      5,
+      746,
+      116,
+      746,
+      116,
+      773,
+      5,
+      773
+    ],
+    "bbox_rect": [
+      5,
+      746,
+      116,
+      773
+    ],
+    "original_text": "QTY ITEM",
+    "converted_text": "क्यू. टी. वाई. आई. टी. ई. एम.",
+    "action": "TRANSLATE",
+    "reason": "generic_document_label",
+    "confidence": 0.9,
+    "evidence": [
+      "document_vocab"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 9,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      5,
+      754,
+      107,
+      765
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      30,
+      779,
+      224,
+      779,
+      224,
+      808,
+      30,
+      808
+    ],
+    "bbox_rect": [
+      30,
+      779,
+      224,
+      808
+    ],
+    "original_text": "2 CHICMCMUFFIN",
+    "converted_text": "2चिकमकमफिन",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      30,
+      784,
+      155,
+      803
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      32,
+      813,
+      196,
+      813,
+      196,
+      844,
+      32,
+      844
+    ],
+    "bbox_rect": [
+      32,
+      813,
+      196,
+      844
+    ],
+    "original_text": "1 M PORRIDGE",
+    "converted_text": "1M पोरिज",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      32,
+      818,
+      121,
+      839
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      33,
+      846,
+      222,
+      846,
+      222,
+      873,
+      33,
+      873
+    ],
+    "bbox_rect": [
+      33,
+      846,
+      222,
+      873
+    ],
+    "original_text": "1 BM 2HOTCAKES",
+    "converted_text": "1 BM 2HOTCAKES",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      33,
+      852,
+      194,
+      866
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      59,
+      878,
+      169,
+      878,
+      169,
+      907,
+      59,
+      907
+    ],
+    "bbox_rect": [
+      59,
+      878,
+      169,
+      907
+    ],
+    "original_text": "1 L COKE",
+    "converted_text": "1L कोक",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      59,
+      883,
+      125,
+      902
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      3,
+      941,
+      327,
+      941,
+      327,
+      973,
+      3,
+      973
+    ],
+    "bbox_rect": [
+      3,
+      941,
+      327,
+      973
+    ],
+    "original_text": "TAKEOUT TOTAL (INCL GST)",
+    "converted_text": "कुल भुगतान (आई. एन. सी. एल. जी. एस. टी. सहित)",
+    "action": "TRANSLATE",
+    "reason": "generic_document_label",
+    "confidence": 0.9,
+    "evidence": [
+      "document_vocab"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 17,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      3,
+      947,
+      325,
+      966
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      3,
+      974,
+      183,
+      974,
+      183,
+      1003,
+      3,
+      1003
+    ],
+    "bbox_rect": [
+      3,
+      974,
+      183,
+      1003
+    ],
+    "original_text": "TOTAL ROUNDED",
+    "converted_text": "कुल राउंड किया गया",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      3,
+      976,
+      158,
+      1001
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      4,
+      1007,
+      180,
+      1007,
+      180,
+      1036,
+      4,
+      1036
+    ],
+    "bbox_rect": [
+      4,
+      1007,
+      180,
+      1036
+    ],
+    "original_text": "CASH TENDERED",
+    "converted_text": "नकद शुल्क लगाया गया",
+    "action": "TRANSLATE",
+    "reason": "generic_document_label",
+    "confidence": 0.9,
+    "evidence": [
+      "document_vocab"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 20,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      4,
+      1012,
+      178,
+      1031
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      3,
+      1040,
+      88,
+      1040,
+      88,
+      1071,
+      3,
+      1071
+    ],
+    "bbox_rect": [
+      3,
+      1040,
+      88,
+      1071
+    ],
+    "original_text": "CHANGE",
+    "converted_text": "बकाया",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      3,
+      1048,
+      58,
+      1062
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      5,
+      1104,
+      288,
+      1104,
+      288,
+      1135,
+      5,
+      1135
+    ],
+    "bbox_rect": [
+      5,
+      1104,
+      288,
+      1135
+    ],
+    "original_text": "TOTAL INCLUDES 6% GST",
+    "converted_text": "कुल शामिलियाँ6% जी. एस. टी.",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      5,
+      1105,
+      258,
+      1133
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      456,
+      748,
+      528,
+      748,
+      528,
+      777,
+      456,
+      777
+    ],
+    "bbox_rect": [
+      456,
+      748,
+      528,
+      777
+    ],
+    "original_text": "TOTAL",
+    "converted_text": "कुल",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      456,
+      753,
+      487,
+      772
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      459,
+      784,
+      529,
+      784,
+      529,
+      810,
+      459,
+      810
+    ],
+    "bbox_rect": [
+      459,
+      784,
+      529,
+      810
+    ],
+    "original_text": "11.00",
+    "converted_text": "11.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      459,
+      790,
+      503,
+      804
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      469,
+      816,
+      528,
+      816,
+      528,
+      842,
+      469,
+      842
+    ],
+    "bbox_rect": [
+      469,
+      816,
+      528,
+      842
+    ],
+    "original_text": "5.60",
+    "converted_text": "5.60",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      469,
+      822,
+      503,
+      836
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      457,
+      847,
+      530,
+      847,
+      530,
+      874,
+      457,
+      874
+    ],
+    "bbox_rect": [
+      457,
+      847,
+      530,
+      874
+    ],
+    "original_text": "10.00",
+    "converted_text": "10.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      457,
+      853,
+      501,
+      867
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      457,
+      945,
+      527,
+      945,
+      527,
+      972,
+      457,
+      972
+    ],
+    "bbox_rect": [
+      457,
+      945,
+      527,
+      972
+    ],
+    "original_text": "26.60",
+    "converted_text": "26.60",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      457,
+      951,
+      501,
+      965
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      456,
+      977,
+      528,
+      977,
+      528,
+      1004,
+      456,
+      1004
+    ],
+    "bbox_rect": [
+      456,
+      977,
+      528,
+      1004
+    ],
+    "original_text": "26.60",
+    "converted_text": "26.60",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      456,
+      983,
+      500,
+      997
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      444,
+      1012,
+      527,
+      1012,
+      527,
+      1038,
+      444,
+      1038
+    ],
+    "bbox_rect": [
+      444,
+      1012,
+      527,
+      1038
+    ],
+    "original_text": "100.00",
+    "converted_text": "100.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      444,
+      1018,
+      498,
+      1032
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      458,
+      1043,
+      526,
+      1043,
+      526,
+      1070,
+      458,
+      1070
+    ],
+    "bbox_rect": [
+      458,
+      1043,
+      526,
+      1070
+    ],
+    "original_text": "73.40",
+    "converted_text": "73.40",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      458,
+      1049,
+      502,
+      1063
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      471,
+      1110,
+      524,
+      1110,
+      524,
+      1137,
+      471,
+      1137
+    ],
+    "bbox_rect": [
+      471,
+      1110,
+      524,
+      1137
+    ],
+    "original_text": "1.51",
+    "converted_text": "1.51",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      471,
+      1116,
+      505,
+      1130
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      42,
+      1202,
+      457,
+      1202,
+      457,
+      1233,
+      42,
+      1233
+    ],
+    "bbox_rect": [
+      42,
+      1202,
+      457,
+      1233
+    ],
+    "original_text": "WE'D LOVE TO HEAR YOUR FEEDBACK",
+    "converted_text": "हम आपकी भावना सुनना पसंद करेंगे",
+    "action": "TRANSLATE",
+    "reason": "sentence_like_text",
+    "confidence": 0.82,
+    "evidence": [
+      "sentence_like"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      42,
+      1203,
+      335,
+      1231
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      101,
+      1271,
+      446,
+      1271,
+      446,
+      1301,
+      101,
+      1301
+    ],
+    "bbox_rect": [
+      101,
+      1271,
+      446,
+      1301
+    ],
+    "original_text": "SIT WWW.MCDFEEDBACK.COM.MY",
+    "converted_text": "सिटWWW.MCDFEEDBACK.COM.MY",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 21,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      101,
+      1276,
+      438,
+      1296
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      243,
+      1304,
+      274,
+      1304,
+      274,
+      1330,
+      243,
+      1330
+    ],
+    "bbox_rect": [
+      243,
+      1304,
+      274,
+      1330
+    ],
+    "original_text": "OR",
+    "converted_text": "OR",
+    "action": "COPY",
+    "reason": "code_or_acronym",
+    "confidence": 0.92,
+    "evidence": [
+      "code_or_acronym"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 19,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      243,
+      1310,
+      270,
+      1324
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      69,
+      1334,
+      459,
+      1334,
+      459,
+      1365,
+      69,
+      1365
+    ],
+    "bbox_rect": [
+      69,
+      1334,
+      459,
+      1365
+    ],
+    "original_text": "DOWNLOAD MY MCD FEEDBACK FROM",
+    "converted_text": "मेरे एम. सी. डी. फीडबैक को डाउनलोड करें",
+    "action": "TRANSLATE",
+    "reason": "generic_document_label",
+    "confidence": 0.9,
+    "evidence": [
+      "document_vocab"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      69,
+      1337,
+      406,
+      1361
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      122,
+      1366,
+      405,
+      1366,
+      405,
+      1399,
+      122,
+      1399
+    ],
+    "bbox_rect": [
+      122,
+      1366,
+      405,
+      1399
+    ],
+    "original_text": "GOOGLE PLAY/APP STORE",
+    "converted_text": "गूगल प्ले/अप्प स्टोर",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 24,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      122,
+      1368,
+      312,
+      1397
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      95,
+      1434,
+      419,
+      1434,
+      419,
+      1465,
+      95,
+      1465
+    ],
+    "bbox_rect": [
+      95,
+      1434,
+      419,
+      1465
+    ],
+    "original_text": "TO SHARE YOUR EXPERIENCE",
+    "converted_text": "अपने अनुभव को साझा करने के लिए",
+    "action": "TRANSLATE",
+    "reason": "generic_document_label",
+    "confidence": 0.9,
+    "evidence": [
+      "document_vocab"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 22,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      95,
+      1435,
+      390,
+      1463
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      27,
+      1497,
+      456,
+      1497,
+      456,
+      1530,
+      27,
+      1530
+    ],
+    "bbox_rect": [
+      27,
+      1497,
+      456,
+      1530
+    ],
+    "original_text": "THANK YOU AND PLEASE COME AGAIN.",
+    "converted_text": "धन्यवाद",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 24,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      27,
+      1503,
+      104,
+      1524
+    ]
+  },
+  {
+    "doc_id": "X51005230617",
+    "bbox8": [
+      2,
+      1530,
+      525,
+      1530,
+      525,
+      1562,
+      2,
+      1562
+    ],
+    "bbox_rect": [
+      2,
+      1530,
+      525,
+      1562
+    ],
+    "original_text": "CUSTOMER SERVICE HOTLINE : 03-2726-5600",
+    "converted_text": "ग्राहक सेवा हॉटलाइन : 03-2726-5600",
+    "action": "MIXED",
+    "reason": "label_value_pattern",
+    "confidence": 0.98,
+    "evidence": [
+      "label_value"
+    ],
+    "image_w": 604,
+    "image_h": 1716,
+    "font_size": 23,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      2,
+      1532,
+      352,
+      1559
+    ]
+  }
+]

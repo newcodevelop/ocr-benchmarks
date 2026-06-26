@@ -1,0 +1,1484 @@
+[
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      379,
+      262,
+      588,
+      262,
+      588,
+      283,
+      379,
+      283
+    ],
+    "bbox_rect": [
+      379,
+      262,
+      588,
+      283
+    ],
+    "original_text": "AEON CO. (M) BHD (126926-H)",
+    "converted_text": "एओन CO. (M) BHD (126926-H)",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 15,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      379,
+      265,
+      584,
+      280
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      372,
+      286,
+      597,
+      286,
+      597,
+      304,
+      372,
+      304
+    ],
+    "bbox_rect": [
+      372,
+      286,
+      597,
+      304
+    ],
+    "original_text": "3RD FLR, AEON TAMAN MALURI SC",
+    "converted_text": "3RD FLR, AEON TAMAN MALURI SC",
+    "action": "ABSTAIN_COPY",
+    "reason": "ambiguous_or_unknown",
+    "confidence": 0.5,
+    "evidence": [
+      "default_abstain"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      372,
+      289,
+      576,
+      300
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      387,
+      308,
+      572,
+      308,
+      572,
+      326,
+      387,
+      326
+    ],
+    "bbox_rect": [
+      387,
+      308,
+      572,
+      326
+    ],
+    "original_text": "JLN JEJAKA, TAMAN MALURI",
+    "converted_text": "जेएलएन जेजाका, तमन मलूरी",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      387,
+      309,
+      526,
+      325
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      379,
+      329,
+      582,
+      329,
+      582,
+      349,
+      379,
+      349
+    ],
+    "bbox_rect": [
+      379,
+      329,
+      582,
+      349
+    ],
+    "original_text": "CHERAS, 55100 KUALA LUMPUR",
+    "converted_text": "चेरस,55100कुआला लुमपुर",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      379,
+      331,
+      524,
+      346
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      402,
+      351,
+      565,
+      351,
+      565,
+      369,
+      402,
+      369
+    ],
+    "bbox_rect": [
+      402,
+      351,
+      565,
+      369
+    ],
+    "original_text": "GST ID : 002017394688",
+    "converted_text": "जी. एस. टी. आई. डी. : 002017394688",
+    "action": "MIXED",
+    "reason": "label_value_pattern",
+    "confidence": 0.98,
+    "evidence": [
+      "label_value"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 9,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      402,
+      354,
+      539,
+      365
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      433,
+      373,
+      542,
+      373,
+      542,
+      390,
+      433,
+      390
+    ],
+    "bbox_rect": [
+      433,
+      373,
+      542,
+      390
+    ],
+    "original_text": "SHOPPING HOURS",
+    "converted_text": "शॉपिंग हाउर्स",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      433,
+      374,
+      494,
+      389
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      379,
+      394,
+      588,
+      394,
+      588,
+      413,
+      379,
+      413
+    ],
+    "bbox_rect": [
+      379,
+      394,
+      588,
+      413
+    ],
+    "original_text": "SUN-THU: 1000 HRS - 2230 HRS",
+    "converted_text": "सुन-थू: 1000HRS -2230HRS",
+    "action": "MIXED",
+    "reason": "label_value_pattern",
+    "confidence": 0.98,
+    "evidence": [
+      "label_value"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      379,
+      396,
+      547,
+      410
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      379,
+      416,
+      589,
+      416,
+      589,
+      435,
+      379,
+      435
+    ],
+    "bbox_rect": [
+      379,
+      416,
+      589,
+      435
+    ],
+    "original_text": "FRI-SAT : 1000 HRS - 2300 HRS",
+    "converted_text": "फ्री-सत : 1000HRS -2300HRS",
+    "action": "MIXED",
+    "reason": "label_value_pattern",
+    "confidence": 0.98,
+    "evidence": [
+      "label_value"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      379,
+      416,
+      560,
+      434
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      334,
+      460,
+      449,
+      460,
+      449,
+      477,
+      334,
+      477
+    ],
+    "bbox_rect": [
+      334,
+      460,
+      449,
+      477
+    ],
+    "original_text": "1X 000007996511",
+    "converted_text": "1X 000007996511",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      334,
+      464,
+      435,
+      473
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      563,
+      457,
+      620,
+      457,
+      620,
+      475,
+      563,
+      475
+    ],
+    "bbox_rect": [
+      563,
+      457,
+      620,
+      475
+    ],
+    "original_text": "75.00SR",
+    "converted_text": "75.00SR",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      563,
+      461,
+      610,
+      470
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      356,
+      481,
+      474,
+      481,
+      474,
+      499,
+      356,
+      499
+    ],
+    "bbox_rect": [
+      356,
+      481,
+      474,
+      499
+    ],
+    "original_text": "AMBROSIAL GREEK",
+    "converted_text": "एम्ब्रोसियल ग्रीक",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      356,
+      482,
+      446,
+      497
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      309,
+      523,
+      381,
+      523,
+      381,
+      542,
+      309,
+      542
+    ],
+    "bbox_rect": [
+      309,
+      523,
+      381,
+      542
+    ],
+    "original_text": "SUB-TOTAL",
+    "converted_text": "उप-कुल",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      309,
+      525,
+      351,
+      539
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      580,
+      522,
+      620,
+      522,
+      620,
+      540,
+      580,
+      540
+    ],
+    "bbox_rect": [
+      580,
+      522,
+      620,
+      540
+    ],
+    "original_text": "75.00",
+    "converted_text": "75.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      580,
+      526,
+      611,
+      535
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      309,
+      545,
+      464,
+      545,
+      464,
+      564,
+      309,
+      564
+    ],
+    "bbox_rect": [
+      309,
+      545,
+      464,
+      564
+    ],
+    "original_text": "TOTAL SALES INCL GST",
+    "converted_text": "कुल बिक्री में आई. एस. टी. शामिल है",
+    "action": "TRANSLATE",
+    "reason": "generic_document_label",
+    "confidence": 0.9,
+    "evidence": [
+      "document_vocab"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 11,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      309,
+      548,
+      462,
+      561
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      579,
+      544,
+      619,
+      544,
+      619,
+      561,
+      579,
+      561
+    ],
+    "bbox_rect": [
+      579,
+      544,
+      619,
+      561
+    ],
+    "original_text": "75.00",
+    "converted_text": "75.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      579,
+      548,
+      610,
+      557
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      310,
+      566,
+      495,
+      566,
+      495,
+      586,
+      310,
+      586
+    ],
+    "bbox_rect": [
+      310,
+      566,
+      495,
+      586
+    ],
+    "original_text": "TOTAL AFTER ADJ INCL GST",
+    "converted_text": "एडीजे के बाद कुल मिलाकर आई. एन. सी. एल. जी. एस. टी.",
+    "action": "TRANSLATE",
+    "reason": "generic_document_label",
+    "confidence": 0.9,
+    "evidence": [
+      "document_vocab"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 8,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      310,
+      571,
+      488,
+      581
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      579,
+      565,
+      620,
+      565,
+      620,
+      583,
+      579,
+      583
+    ],
+    "bbox_rect": [
+      579,
+      565,
+      620,
+      583
+    ],
+    "original_text": "75.00",
+    "converted_text": "75.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      579,
+      569,
+      610,
+      578
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      308,
+      591,
+      344,
+      591,
+      344,
+      608,
+      308,
+      608
+    ],
+    "bbox_rect": [
+      308,
+      591,
+      344,
+      608
+    ],
+    "original_text": "CASH",
+    "converted_text": "नकद",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      308,
+      595,
+      331,
+      604
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      572,
+      587,
+      619,
+      587,
+      619,
+      604,
+      572,
+      604
+    ],
+    "bbox_rect": [
+      572,
+      587,
+      619,
+      604
+    ],
+    "original_text": "100.00",
+    "converted_text": "100.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      572,
+      591,
+      610,
+      600
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      309,
+      612,
+      404,
+      612,
+      404,
+      629,
+      309,
+      629
+    ],
+    "bbox_rect": [
+      309,
+      612,
+      404,
+      629
+    ],
+    "original_text": "ITEM COUNT 1",
+    "converted_text": "आई. टी. ई. एम. देश1",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 11,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      309,
+      614,
+      400,
+      626
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      448,
+      610,
+      526,
+      610,
+      526,
+      629,
+      448,
+      629
+    ],
+    "bbox_rect": [
+      448,
+      610,
+      526,
+      629
+    ],
+    "original_text": "CHANGE AMT",
+    "converted_text": "चंगे अम्त",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      448,
+      610,
+      497,
+      629
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      579,
+      609,
+      619,
+      609,
+      619,
+      626,
+      579,
+      626
+    ],
+    "bbox_rect": [
+      579,
+      609,
+      619,
+      626
+    ],
+    "original_text": "25.00",
+    "converted_text": "25.00",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      579,
+      613,
+      610,
+      622
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      340,
+      631,
+      581,
+      631,
+      581,
+      650,
+      340,
+      650
+    ],
+    "bbox_rect": [
+      340,
+      631,
+      581,
+      650
+    ],
+    "original_text": "INVOICE NO: 2018030610100080498",
+    "converted_text": "इनवॉइस नं.: 2018030610100080498",
+    "action": "MIXED",
+    "reason": "label_value_pattern",
+    "confidence": 0.98,
+    "evidence": [
+      "label_value"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      340,
+      632,
+      557,
+      648
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      309,
+      655,
+      397,
+      655,
+      397,
+      674,
+      309,
+      674
+    ],
+    "bbox_rect": [
+      309,
+      655,
+      397,
+      674
+    ],
+    "original_text": "GST SUMMARY",
+    "converted_text": "GST सारांश",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      309,
+      657,
+      373,
+      671
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      464,
+      654,
+      512,
+      654,
+      512,
+      670,
+      464,
+      670
+    ],
+    "bbox_rect": [
+      464,
+      654,
+      512,
+      670
+    ],
+    "original_text": "AMOUNT",
+    "converted_text": "राशि",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      464,
+      655,
+      489,
+      668
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      593,
+      652,
+      620,
+      652,
+      620,
+      670,
+      593,
+      670
+    ],
+    "bbox_rect": [
+      593,
+      652,
+      620,
+      670
+    ],
+    "original_text": "TAX",
+    "converted_text": "कर",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      593,
+      656,
+      610,
+      665
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      309,
+      678,
+      366,
+      678,
+      366,
+      694,
+      309,
+      694
+    ],
+    "bbox_rect": [
+      309,
+      678,
+      366,
+      694
+    ],
+    "original_text": "SR @ 6%",
+    "converted_text": "SR @ 6%",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      309,
+      681,
+      358,
+      691
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      470,
+      675,
+      511,
+      675,
+      511,
+      692,
+      470,
+      692
+    ],
+    "bbox_rect": [
+      470,
+      675,
+      511,
+      692
+    ],
+    "original_text": "70.75",
+    "converted_text": "70.75",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      470,
+      679,
+      501,
+      688
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      586,
+      675,
+      619,
+      675,
+      619,
+      691,
+      586,
+      691
+    ],
+    "bbox_rect": [
+      586,
+      675,
+      619,
+      691
+    ],
+    "original_text": "4.25",
+    "converted_text": "4.25",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      586,
+      678,
+      610,
+      687
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      310,
+      698,
+      349,
+      698,
+      349,
+      716,
+      310,
+      716
+    ],
+    "bbox_rect": [
+      310,
+      698,
+      349,
+      716
+    ],
+    "original_text": "TOTAL",
+    "converted_text": "कुल",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      310,
+      701,
+      330,
+      713
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      470,
+      696,
+      512,
+      696,
+      512,
+      714,
+      470,
+      714
+    ],
+    "bbox_rect": [
+      470,
+      696,
+      512,
+      714
+    ],
+    "original_text": "70.75",
+    "converted_text": "70.75",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      470,
+      700,
+      501,
+      709
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      586,
+      695,
+      619,
+      695,
+      619,
+      712,
+      586,
+      712
+    ],
+    "bbox_rect": [
+      586,
+      695,
+      619,
+      712
+    ],
+    "original_text": "4.25",
+    "converted_text": "4.25",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 12,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      586,
+      699,
+      610,
+      708
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      310,
+      719,
+      434,
+      719,
+      434,
+      738,
+      310,
+      738
+    ],
+    "bbox_rect": [
+      310,
+      719,
+      434,
+      738
+    ],
+    "original_text": "06/03/2018 20:01",
+    "converted_text": "06/03/2018 20:01",
+    "action": "COPY",
+    "reason": "fully_protected_pattern",
+    "confidence": 1.0,
+    "evidence": [
+      "protected_pattern"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      310,
+      721,
+      425,
+      736
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      494,
+      716,
+      618,
+      716,
+      618,
+      736,
+      494,
+      736
+    ],
+    "bbox_rect": [
+      494,
+      716,
+      618,
+      736
+    ],
+    "original_text": "1010 008 00B0498",
+    "converted_text": "1010 00800B0498",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      494,
+      721,
+      612,
+      731
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      309,
+      740,
+      474,
+      740,
+      474,
+      758,
+      309,
+      758
+    ],
+    "bbox_rect": [
+      309,
+      740,
+      474,
+      758
+    ],
+    "original_text": "0305582 PJ PIRYALATHA",
+    "converted_text": "0305582पीजे पिर्यालथा",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      309,
+      741,
+      430,
+      756
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      416,
+      783,
+      542,
+      783,
+      542,
+      801,
+      416,
+      801
+    ],
+    "bbox_rect": [
+      416,
+      783,
+      542,
+      801
+    ],
+    "original_text": "AEON PERMAS JAYA",
+    "converted_text": "एओन परमास जाया",
+    "action": "TRANSLITERATE",
+    "reason": "proper_name_like_without_ner",
+    "confidence": 0.7,
+    "evidence": [
+      "title_case_or_legal_suffix"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      416,
+      785,
+      508,
+      799
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      386,
+      803,
+      572,
+      803,
+      572,
+      823,
+      386,
+      823
+    ],
+    "bbox_rect": [
+      386,
+      803,
+      572,
+      823
+    ],
+    "original_text": "TEL 1-300-80-AEON (2366)",
+    "converted_text": "TEL1-300-80-AEON(2366)",
+    "action": "MIXED",
+    "reason": "protected_plus_text",
+    "confidence": 0.96,
+    "evidence": [
+      "protected_plus_unprotected"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 14,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      386,
+      805,
+      555,
+      820
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      372,
+      824,
+      588,
+      824,
+      588,
+      845,
+      372,
+      845
+    ],
+    "bbox_rect": [
+      372,
+      824,
+      588,
+      845
+    ],
+    "original_text": "THANK YOU FOR YOUR PATRONAGE",
+    "converted_text": "धन्यवाद",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 15,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      372,
+      827,
+      421,
+      841
+    ]
+  },
+  {
+    "doc_id": "X51005433494",
+    "bbox8": [
+      408,
+      847,
+      543,
+      847,
+      543,
+      865,
+      408,
+      865
+    ],
+    "bbox_rect": [
+      408,
+      847,
+      543,
+      865
+    ],
+    "original_text": "PLEASE COME AGAIN",
+    "converted_text": "कृपया फिर आइए",
+    "action": "TRANSLATE",
+    "reason": "lexicon_label_or_sentence",
+    "confidence": 0.99,
+    "evidence": [
+      "lexicon"
+    ],
+    "image_w": 1080,
+    "image_h": 1527,
+    "font_size": 13,
+    "fit_policy": "same_box_shrink",
+    "overflow": false,
+    "rendered_rect": [
+      408,
+      848,
+      489,
+      863
+    ]
+  }
+]
