@@ -940,7 +940,7 @@ def main() -> None:
     p.add_argument("--lr", type=float, default=2e-4)
     p.add_argument("--warmup-ratio", type=float, default=0.03)
     p.add_argument("--weight-decay", type=float, default=0.0)
-    p.add_argument("--max-length", type=int, default=2048)
+    p.add_argument("--max-length", type=int, default=4096)
     p.add_argument("--max-new-tokens", type=int, default=256)
     p.add_argument("--lora-r", type=int, default=16)
     p.add_argument("--lora-alpha", type=int, default=32)
