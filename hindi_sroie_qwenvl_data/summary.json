@@ -1,0 +1,14 @@
+{
+  "num_records": 104,
+  "train": 83,
+  "val": 10,
+  "test": 11,
+  "skipped": 0,
+  "fields": [
+    "company",
+    "date",
+    "address",
+    "total"
+  ],
+  "prompt": "You are given a Hindi receipt image. Extract the receipt information and return ONLY a valid JSON object with exactly these keys: company, date, address, total. Use the text as it appears in the Hindi image. Keep dates, numbers, currency amounts, and IDs unchanged. Do not add explanations."
+}
