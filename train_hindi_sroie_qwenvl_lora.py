@@ -53,6 +53,19 @@ python train_hindi_sroie_qwenvl_lora.py score \
 
 from __future__ import annotations
 
+
+import os
+
+os.environ["HF_HOME"] = "/workspace/"
+
+os.environ["HF_HUB_CACHE"] = "/workspace/hub/"
+
+os.environ["HF_XET_CACHE"] = "/workspace/xet/"
+
+os.environ["TRANSFORMERS_CACHE"] = "/workspace/transformers/"
+
+os.environ["HF_DATASETS_CACHE"] = "/workspace/datasets/"
+
 import argparse
 import dataclasses
 import difflib
