@@ -538,7 +538,7 @@ def load_model_and_processor(model_name: str, args: argparse.Namespace, for_trai
                 cache_dir="/workspace/"
             )
 
-    processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+    processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True, cache_dir="/workspace/")
     if for_train:
         model.config.use_cache = False
     return model, processor
