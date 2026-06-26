@@ -562,7 +562,7 @@ def record_to_messages(record: Dict[str, Any], include_answer: bool) -> List[Dic
         "role": "user",
         "content": [
             # {"type": "image", "image": record["image"]},
-            {"type": "image", "image": os.path.join("/workspace/ocr_benchmark/v7_hi_indicxlit/",record["image"].split("/")[-1])},
+            {"type": "image", "image": os.path.join("/workspace/ocr_benchmark/v7_hi_indicxlit/images/",record["image"].split("/")[-1])},
             {"type": "text", "text": record.get("prompt", DEFAULT_PROMPT)},
         ],
     }
