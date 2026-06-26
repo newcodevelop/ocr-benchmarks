@@ -18,7 +18,7 @@ Subcommands
 prepare : build train/val/test JSONL files from image dir + metadata dir + SROIE entity dir
 train   : LoRA fine-tune Qwen2-VL/Qwen2.5-VL-style models using Transformers + PEFT
 infer   : run base or LoRA model on a prepared JSONL split
-score   : compute exact-match and token-level scores from prediction JSONL
+score   : compute exact-match and token-level scores from prediction JSONL 
 run_all : base eval -> train -> LoRA eval -> score both
 
 Expected packages for training/eval on GPU:
@@ -620,8 +620,8 @@ def make_collator(processor, max_length: int):
             images=image_inputs,
             videos=video_inputs,
             padding=True,
-            truncation=True,
-            max_length=max_length,
+            # truncation=True,
+            # max_length=max_length,
             return_tensors="pt",
         )
 
@@ -635,8 +635,8 @@ def make_collator(processor, max_length: int):
             images=prompt_image_inputs,
             videos=prompt_video_inputs,
             padding=True,
-            truncation=True,
-            max_length=max_length,
+            # truncation=True,
+            # max_length=max_length,
             return_tensors="pt",
         )
         for i in range(labels.shape[0]):
