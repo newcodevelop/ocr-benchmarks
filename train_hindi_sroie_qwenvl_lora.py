@@ -513,6 +513,7 @@ def load_model_and_processor(model_name: str, args: argparse.Namespace, for_trai
             device_map=args.device_map,
             quantization_config=quantization_config,
             trust_remote_code=True,
+            cache_dir="/workspace/"
         )
     except Exception:
         # Fallback for older transformers/model classes.
